@@ -13,5 +13,13 @@
     {
       "path": "./tsconfig.spec.json"
     }
+],
+"compilerOptions": { 
+  "experimentalDecorators": true,
+  "allowSyntheticDefaultImports" : true,
+},
+"typeRoots": [
+  "./typings",
+  "./node_modules/@types/"
 ]
 }

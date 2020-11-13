@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+ .ql-snow.ql-toolbar button.ql-pawel {
+    background-color: red;
+}
+.ql-snow.ql-toolbar button.ql-pawel2 {
+    background-color: green;
+}
+.ql-snow.ql-toolbar button.ql-modal {
+    background-color: blue;
+}
+.ql-pawel3.ql-picker .ql-picker-item[data-value="raz"]::before{
+    content: 'First'
+}
+.ql-pawel3.ql-picker .ql-picker-item[data-value="dwa"]::before{
+    content: 'Two'
+}
+.ql-pawel3.ql-picker .ql-picker-item[data-value="trzy"]::before{
+    content: 'Three'
+}

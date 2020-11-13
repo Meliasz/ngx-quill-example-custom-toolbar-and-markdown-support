@@ -1,0 +1,10 @@
+
+<quill-editor
+  [modules]="moduleConfig"
+  (onContentChanged)="handleContentChange($event)"
+  (onSelectionChanged)="handleSelection($event)"
+  (onEditorCreated)="initValue($event)"
+  #a
+  >
+
+</quill-editor>

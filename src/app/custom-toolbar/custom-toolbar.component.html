@@ -1,0 +1,35 @@
+<h3 id="toolbar-bottom">Custom Toolbar (position: bottom) with toolbar title-attributes + Word counter</h3>
+<quill-editor
+  [(ngModel)]="editorModel"
+>
+  <div quill-editor-toolbar>
+    <span class="ql-formats">
+      <select class="ql-font">
+        <option value="aref">Aref Ruqaa</option>
+        <option value="mirza">Mirza</option>
+        <option selected value="roboto">Roboto</option>
+      </select>
+      <select class="ql-align" [title]="'Aligment'">
+        <option selected></option>
+        <option value="center"></option>
+        <option value="right"></option>
+        <option value="justify"></option>
+      </select>
+      <select class="ql-align" [title]="'Aligment2'">
+        <option selected></option>
+        <option value="center"></option>
+        <option value="right"></option>
+        <option value="justify"></option>
+      </select>
+
+      <select class="ql-color" [title]="'Color'">
+      </select>
+
+      <select class="ql-background" [title]="'BackgroundColor'">
+      </select>
+    </span>
+    <span class="ql-formats">
+      <div id="counter"></div>
+    </span>
+  </div>
+</quill-editor>

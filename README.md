@@ -1,4 +1,4 @@
-# Test
+# Ngx quill markdown support and custom buttons in toolbar (variables insertion) with quill mention
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
