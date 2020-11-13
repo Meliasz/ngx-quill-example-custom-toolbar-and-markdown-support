@@ -35,7 +35,6 @@
             "allowedCommonJsDependencies": [
               "turndown",
               "marked"
-              
             ]
           },
           "configurations": {
@@ -127,6 +126,10 @@
               "devServerTarget": "test:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
